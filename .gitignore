@@ -1,0 +1,24 @@
+# PlatformIO & Embedded Build Output
+.pio/
+.pioenvs/
+.piolibdeps/
+*.elf
+*.bin
+*.hex
+
+# Python & ROS 2 Build Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.egg-info/
+log/
+build/
+install/
+
+# IDEs and OS Files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store

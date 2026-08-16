@@ -1,0 +1,18 @@
+Función	        Pin
+I2C SDA	        21
+I2C SCL	        22
+XSHUT central	5
+XSHUT izquierdo	14
+XSHUT derecho	23
+Motor PWM A	25
+AIN1	33
+AIN2	32
+Motor PWM B	13
+BIN1	26
+BIN2	27
+Encoder izq A	4
+Encoder izq B	2
+Encoder der A	18
+Encoder der B	19
+UART RX2	16
+UART TX2	17

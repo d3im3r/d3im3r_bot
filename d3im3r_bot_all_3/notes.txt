@@ -1,0 +1,1 @@
+En la versión final se debe añadir un jumper para activar o desactivar el GPIO2 para el proceso de carga.

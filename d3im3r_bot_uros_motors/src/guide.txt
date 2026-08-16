@@ -1,0 +1,30 @@
+programa básico para funcionamiento de los sensores:
+
+IMU -> bno055
+VL53 -> 3 direcciones: 
+
+$ ros2 topic list 
+/bno055/calibration_status
+/imu/data
+/parameter_events
+/rosout
+/tof/distances
+
+$ ros2 topic echo /bno055/calibration_status --once
+$ ros2 topic echo /tof/distances --once
+$ ros2 topic echo /imu/data --once
+
+
+Estructura del estatus:
+millares: sys
+centenas: gyro
+decenas: accel
+unidades: mag
+
+Entonces:
+3310 significaría sys=3, gyro=3, accel=1, mag=0
+
+Cómo interpretar el LED14
+2 parpadeos: fallo en sensores
+3 parpadeos: fallo en micro-ROS
+encendido fijo: sistema listo
