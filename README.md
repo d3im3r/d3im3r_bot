@@ -19,9 +19,9 @@ Repositorio unificado con todas las iteraciones y versiones del proyecto **D3IM3
 
 ---
 
-## ⚙️ Funcionalidades del Firmware Principal (`d3im3r_bot_all_9`)
+## ⚙️ Funcionalidades del Firmware Principal (`d3im3r_bot_all_10`)
 
-El firmware en `d3im3r_bot_all_9` representa la versión de producción del sistema embebido para ESP32 (Denky32). Sus módulos integrados ofrecen las siguientes funcionalidades clave:
+El firmware en `d3im3r_bot_all_10` representa la versión de producción optimizada y refactorizada del sistema embebido para ESP32 (Denky32). Sus módulos integrados ofrecen las siguientes funcionalidades clave y mejoras estructurales:
 
 ### 1. 🤖 Cliente micro-ROS sobre Wi-Fi UDP (`uros.cpp` / `uros.h`)
 * **Transporte:** Comunicación por UDP sobre Wi-Fi de alta velocidad hacia el `micro_ros_agent`.
@@ -75,7 +75,8 @@ El firmware en `d3im3r_bot_all_9` representa la versión de producción del sist
 
 ### ⚡ 2. Firmwares PlatformIO (ESP32 / micro-ROS)
 * **Versión Principal Actual:**
-  * **`d3im3r_bot_all_9/`**: Versión más completa y refinada del firmware (control PID, odometría, OLED, Wi-Fi y módulo de seguridad `safety.cpp`).
+  * **`d3im3r_bot_all_10/`**: Versión refactorizada y optimizada (limpieza de código muerto, lazo PI desacoplado, driver H-Bridge sin demoras de bloqueo innecesarias, portal HTML/CSS optimizado y correcciones de seguridad).
+  * **`d3im3r_bot_all_9/`**: Iteración previa de producción.
 * **Iteraciones Anteriores de Integración:**
   * `d3im3r_bot_all/` a `d3im3r_bot_all_8/`: Evolución de la integración de componentes y modularización de la red y cinemática.
 * **Módulos y Pruebas de Control de Motores:**
